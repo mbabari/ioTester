@@ -1,12 +1,20 @@
 # ioTester
-Java Application to test a device IO performance
+# Java Application to test a device IO performance.
+# It creates a new file, write some data inside it and deletes the file at a given frequency and logs the results into an output file in this format:
 
-System.out.println("==================================================================");
-System.out.println("Application to test a device IO performance: ");
-System.out.println("It creates a new file, write some data inside and deletes the file");
-System.out.println("at a given frequency and logs the results.");
-System.out.println("The IO Test is running with " +freq+ " seconds frequency");
-System.out.println("OUTPUT FILE ---> "+outputFilename);
-System.out.println("===================================================================");
-   
-		    
+[12-01-2018 11:48:48.626] create a file... 
+[12-01-2018 11:48:48.652] file created. 
+[12-01-2018 11:48:48.653] file deleted. 
+[12-01-2018 11:48:48.653] Time duration : 27 ms
+[12-01-2018 11:48:48.653] !!! ALERT !!! 
+ ----------------------------------------------------------
+[12-01-2018 11:48:53.653] create a file... 
+[12-01-2018 11:48:53.661] file created. 
+[12-01-2018 11:48:53.662] file deleted. 
+[12-01-2018 11:48:53.662] Time duration : 9 ms
+ ----------------------------------------------------------
+
+
+
+
+
