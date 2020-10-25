@@ -20,7 +20,7 @@ The tool runs at a given frequency and logs the results into an output file in t
  ----------------------------------------------------------
 ```
 
-This tools helps testing a shared filesystem
+This tools helps testing a shared filesystem performance
 
 
 
